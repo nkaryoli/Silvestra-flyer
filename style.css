@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-huge {
+        font-size: clamp(5rem, 25vw, 20rem);
+        line-height: 0.8;
+        letter-spacing: -0.05em;
+    }
+
+    .clip-diagonal {
+        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    }
+
+    .clip-asymmetric {
+        clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+    }
+
+    .editorial-line {
+        height: 1px;
+        background-color: #e77a55;
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    .floating-panel {
+        backdrop-filter: blur(10px);
+        background: rgba(23, 19, 17, 0.8);
+        border: 1px solid rgba(231, 122, 85, 0.2);
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-background-dark text-stone-300 overflow-x-hidden;
+    }
+}
