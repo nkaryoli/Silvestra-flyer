@@ -26,49 +26,51 @@
     <nav class="max-w-7xl m-auto flex justify-between items-center">
       <div class="pointer-events-auto">
         <a class="logo h-full flex items-center gap-1 -ml-2" href="https://nkaryoli.github.io/silvestra/">
-          <div class="h-14 w-14"><img src="assets/logo.png" alt="logo" class="h-full"></div>
-          <p class="text-2xl font-headerText text-text"><span class="text-3xl">S</span>ilvestra</p>
+          <div class="h-12 sm:h-14 w-12 sm:w-14"><img src="assets/logo.png" alt="logo" class="h-full"></div>
+          <p class="text-lg sm:text-2xl font-headerText text-text"><span class="text-2xl sm:text-3xl">S</span>ilvestra</p>
         </a>
       </div>
       <div
-        class="pointer-events-auto flex items-end gap-3 text-xs font-semibold tracking-widest uppercase text-text-light">
-        <a class="hover:text-primary transition-colors" href="#">Sector Primario</a>
-        <div class="editorial-line w-12"></div>
-        <a class="hover:text-primary transition-colors" href="#">Gestión Forestal</a>
+        class="pointer-events-auto flex flex-row items-center gap-4 text-[10px] sm:text-xs font-semibold tracking-widest uppercase text-text-light">
+        <a class="hover:text-primary transition-colors whitespace-nowrap" href="#">Sector Primario</a>
+        <div class="editorial-line w-8 sm:w-12 hidden sm:block"></div>
+        <a class="hover:text-primary transition-colors whitespace-nowrap" href="#">Gestión Forestal</a>
       </div>
     </nav>
   </header>
   <main class="relative z-10">
-    <section class="min-h-screen relative flex items-center px-6 md:px-24 py-20">
-      <div class="grid grid-cols-12 w-full max-w-6xl m-auto gap-24">
-        <div class="col-span-12 lg:col-span-7 relative z-20 flex flex-col justify-center">
-          <h2 class="font-headerText text-5xl md:text-[7rem] text-white font-semibold leading-none mb-9">
-            Gestión <br /> <span class="italic font-semibold text-primary">Forestal Sostenible</span>
+    <section class="min-h-screen w-full relative flex items-center px-4 sm:px-6 xl:px-24 py-20">
+      <div class="grid grid-cols-5 w-full max-w-6xl m-auto gap-14">
+        <div class="w-full col-span-5 lg:col-span-3 relative z-20 flex flex-col justify-center">
+          <h2
+            class="font-headerText text-6xl sm:text-8xl xl:text-[7rem] text-white font-semibold leading-tight sm:leading-none mb-6 sm:mb-9">
+            Gestión <br/> <span class="italic font-semibold text-primary">Forestal <br/> Sostenible</span>
           </h2>
           <div class="editorial-line mb-9 max-w-sm"></div>
-          <p class="text-xl md:text-2xl font-light leading-relaxed  text-text-light">
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed text-text-light max-w-sm sm:max-w-lg md:max-w-xl lg:max-w-2xl">
             No solo extraemos recursos; diseñamos ecosistemas que prosperan
             para garantizar la resiliencia climática global.
           </p>
         </div>
-        <div class="col-span-12 lg:col-span-5 relative mt-12 lg:mt-0">
-          <div class="clip-diagonal overflow-hidden aspect-[4/5] relative">
+        <div class="col-span-5 lg:col-span-2 relative w-full">
+          <div class="max-w-md w-full flex justify-self-end">
+          <div class="clip-diagonal overflow-hidden aspect-[4/4] sm:aspect-square lg:aspect-[4/5] relative">
             <img alt="Forest Canopy"
               class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWf26baPB6Pi8L2Eoi1x4Wi6A-apwhRCaEnIo3H3h8s-7YOrbjXD3xoij_zesgvAfByPmiQt74nqfKHrBf9rxNuiqDAxFmSqSkESFDhPPEr-QoIVJSlWNwlJESF5WcHqzXW4dnq1uQlTUyz2bcWAyPEWT722RDYJIKyPyluCzcTyFu7RksBO8r87FjAh5W_Hdoa_D1l1iS4ppEO4-dLk0HZuzAWn-C7cM5kp7W_U_1HrXU_gMbKSHRXyxG2nNVayctmYMq6V_EvyDb" />
             <div class="absolute inset-0 bg-primary/10 mix-blend-multiply pointer-events-none"></div>
           </div>
-          <div class="floating-panel absolute -bottom-12 -left-12 p-10 max-w-xs hidden md:block">
+          <div class="floating-panel absolute -bottom-24 lg:-bottom-12 left-[5%] lg:-left-12 p-6 xl:p-10 max-w-xs block">
             <h3 class="font-headerText font-semibold text-2xl text-white mb-4">Sector Primario</h3>
             <p class="font-light text-text-light leading-relaxed">Liderando la transición hacia un futuro
               regenerativo, donde la gestión inteligente es nuestra infraestructura vital.</p>
             <div class="editorial-line mt-6 w-1/3"></div>
           </div>
-        </div>
+        </div></div>
       </div>
     </section>
-    <section class="py-40 px-6 md:px-24">
-      <div class="flex flex-col md:flex-row gap-24 items-center w-full max-w-7xl m-auto">
+    <section class="py-20 sm:py-40 px-6 md:px-24">
+      <div class="flex flex-col md:flex-row gap-12 sm:gap-24 items-center w-full max-w-7xl m-auto">
         <div class="w-full md:w-1/2 order-2 md:order-1">
           <div class="clip-asymmetric aspect-video relative overflow-hidden bg-bg-light">
             <img alt="Tree Rings Detail"
@@ -77,8 +79,8 @@
           </div>
         </div>
         <div class="w-full md:w-1/2 order-1 md:order-2">
-          <div class="max-w-md">
-            <h2 class="font-headerText text-5xl text-white mb-8">Arquitectura Viva</h2>
+          <div class="max-w-md text-center md:text-left">
+            <h2 class="font-headerText text-4xl sm:text-5xl text-white mb-6 sm:mb-8">Arquitectura Viva</h2>
             <p class="text-text-light font-light text-lg mb-8 leading-relaxed">
               Entendemos la sostenibilidad como un proceso dinámico. Aplicamos el concepto de <strong
                 class="italic text-primary">Corta Selectiva</strong>, donde cada árbol retirado permite la entrada de
@@ -92,14 +94,15 @@
         </div>
       </div>
     </section>
-    <section class="py-24 px-6 md:px-24 bg-bg-light/60">
+    <section class="py-24 px-6 xl:px-24 bg-bg-light/60">
       <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-0 relative">
-          <div class="absolute left-1/3 top-0 bottom-0 w-px bg-primary/20 hidden md:block"></div>
-          <div class="absolute left-2/3 top-0 bottom-0 w-px bg-primary/20 hidden md:block"></div>
-          <div class="p-12 border-b border-primary/20 md:border-b-0 group">
-            <span class="tracking-widest text-primary mb-12 block">CO₂ Capturado/Año</span>
-            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">-450t CO2</h4>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-0 relative">
+          <div class="absolute left-1/3 top-0 bottom-0 w-px bg-primary/20 hidden lg:block"></div>
+          <div class="absolute left-2/3 top-0 bottom-0 w-px bg-primary/20 hidden lg:block"></div>
+          <div class="lg:p-12 border-b border-primary/20 md:border-b-0 group">
+            <span class="tracking-widest text-primary mb-6 lg:mb-12 block">CO₂ Capturado/Año</span>
+            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">-450t CO2
+            </h4>
             <p class="text-text-light font-light text-sm leading-relaxed mb-8">Equivalente a las emisiones de 200
               vehículos anuales.</p>
             <div class="w-full h-48 overflow-hidden">
@@ -108,7 +111,7 @@
                 src="https://a2g.pe/wp-content/uploads/2024/11/Diseno-sin-titulo-59.jpg" />
             </div>
           </div>
-          <div class="p-12 bg-bg-dark md:-translate-y-12 z-20 border border-primary/10 group">
+          <div class="p-12 bg-bg-dark md:-translate-y-12 z-20 border md:mt-64 lg:mt-0 border-primary/10 group">
             <span class="tracking-widest text-primary mb-12 block uppercase">Biodiversidad Activa</span>
             <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">+15%</h4>
             <p class="text-text-light font-light text-sm leading-relaxed mb-8">Aumento de especies protegidas en
@@ -120,9 +123,10 @@
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gE1R6adBW3JVipPZziwz7IPDyVT9_SNe-YkJxbJS2YZg21CyDv4zKvqNVPmWc8pNwNXcJYeQ1c7tOJOkOR830AWezKlFrydXGbvGLSvKzzEcDEytRQO4sCnXNwfpiiTjkCRSpZBpxw1GT7-_b4lpKPglW-XxhYkMCFOC04Fmvt-nscAyvK3VO8HekAUPAhKzFnsK6kkCyx5CKGzhF0PUjOa_ApX9kXUQ1eYREen_O8-wl-QFLZ6bWXSG117F-XKbPRl0yHAgykEL" />
             </div>
           </div>
-          <div class="p-12 border-t border-primary/20 md:border-t-0 group">
-            <span class="tracking-widest text-primary mb-12 block uppercase">Residuos en Proceso</span>
-            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">Zero Waste</h4>
+          <div class="py-6 lg:p-12 md:-mt-64 lg:mt-0 border-t border-primary/20 md:border-t-0 group">
+            <span class="tracking-widest text-primary mb-6 lg:mb-12 block uppercase">Residuos en Proceso</span>
+            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">Zero Waste
+            </h4>
             <p class="text-text-light font-light text-sm leading-relaxed mb-8">Transformamos el 100% de la biomasa en
               energía, cerrando el ciclo regenerativo.</p>
             <div class="w-full h-48 overflow-hidden">
@@ -139,35 +143,39 @@
         <div class="h-56 w-56 -mb-12">
           <img src="assets/logo.png" alt="Silvestra Logo" class="h-full w-full object-contain">
         </div>
-        <h2 class="font-headerText text-8xl text-white mb-4"><span class="text-9xl">S</span>ilvestra</h2>
+        <h2 class="font-headerText text-5xl sm:text-7xl md:text-8xl text-white mb-4"><span
+            class="text-6xl sm:text-8xl md:text-9xl">S</span>ilvestra</h2>
         <div class="editorial-line w-24 mb-6"></div>
         <p class="text-primary tracking-[0.5em] text-md font-bold uppercase mb-3">Gestión Forestal Inteligente</p>
         <p class="text-text-light font-light max-w-md italic text-lg">
           "La naturaleza no es una mercancía, es nuestra infraestructura vital."
         </p>
         <a href="https://nkaryoli.github.io/silvestra/" target="_blank"
-          class="bg-primary w-[380px] cursor-pointer h-12 mt-6 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px] hover:brightness-110 ">
+          class="bg-primary w-full max-w-[380px] cursor-pointer h-12 mt-6 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px] hover:brightness-110 ">
           SABER MÁS
         </a>
       </div>
     </section>
   </main>
-  <footer class="w-full pt-24 pb-6 h-screen z-20 absolute bottom-0 pointer-events-none">
-    <div class="max-w-7xl h-full mx-auto flex flex-col justify-between items-end gap-12">
-      <div class="flex flex-col items-end gap-6">
-        <div class="pointer-events-auto flex gap-8 text-xs font-bold tracking-widest uppercase text-text-light">
+  <footer class="w-full pt-20 lg:pt-24 pb-6 lg:h-screen z-20 lg:absolute bottom-0 pointer-events-none">
+    <div
+      class="max-w-7xl h-full mx-auto flex flex-col justify-between items-center lg:items-end gap-12 text-center px-6">
+      <div class="flex flex-col items-center lg:items-end gap-6">
+        <div
+          class="pointer-events-auto flex flex-wrap justify-center gap-6 sm:gap-8 text-xs font-bold tracking-widest uppercase text-text-light">
           <a class="hover:text-primary transition-colors" href="#">Instagram</a>
           <a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
           <a class="hover:text-primary transition-colors" href="#">Facebook</a>
         </div>
       </div>
-      <div class="w-full space-y-6">
-        <address class="not-italic text-text-light font-light text-sm leading-relaxed">
+      <div class="w-full space-y-4 sm:space-y-6">
+        <address class="not-italic lg:text-left text-text-light font-light text-xs sm:text-sm leading-relaxed">
           Carrer del Bosc, 47<br />
           43730 Falset, Tarragona <br />
           info@silvestra.es<br />
         </address>
-        <p class="text-xs text-text-light/60 uppercase tracking-[0.2em]">© 2024 Silvestra – Gestión Forestal Sostenible
+        <p class="text-[10px] sm:text-xs text-text-light/60 uppercase tracking-[0.2em]">© 2024 Silvestra – Gestión
+          Forestal Sostenible
         </p>
       </div>
     </div>
