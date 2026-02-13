@@ -4,7 +4,7 @@
 
 @layer utilities {
     .text-huge {
-        font-size: clamp(5rem, 25vw, 20rem);
+        font-size: clamp(5rem, 25vw, 17rem);
         line-height: 0.8;
         letter-spacing: -0.05em;
     }
@@ -22,6 +22,19 @@
         background-color: #e77a55;
         width: 100%;
         opacity: 0.6;
+    }
+
+    .reveal-card {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+        filter: blur(10px);
+        transition: all 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reveal-card.is-visible {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
     }
 
     .floating-panel {

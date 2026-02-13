@@ -12,42 +12,42 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
   <link href="output.css" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Inter:wght@200;300;400;600;900&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-    rel="stylesheet" />
 </head>
 
-<body>
+<body class="relative">
   <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden select-none">
-    <h1 class="text-huge font-black text-text-light/30 absolute -left-10 top-16 opacity-40">SIL</h1>
+    <h1 class="text-huge font-black text-text-light/30 absolute left-0 top-16 opacity-40">SIL</h1>
+    <h3
+      class="text-huge font-black text-text-light/30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-40">
+      VES</h3>
     <h1 class="text-huge font-black text-text-light/30 absolute -right-20 bottom-0 opacity-40">TRA</h1>
   </div>
   <header class="fixed top-0 w-full z-50 px-6 py-2 pointer-events-none bg-bg-light/30 backdrop-blur-md">
     <nav class="max-w-7xl m-auto flex justify-between items-center">
       <div class="pointer-events-auto">
         <a class="logo h-full flex items-center gap-1 -ml-2" href="https://nkaryoli.github.io/silvestra/">
-          <div class="h-14 w-14"><img src="assets/logo3.png" alt="logo" class="h-full"></div>
-        <p class="text-2xl font-headerText"><span class="text-3xl">S</span>ilvestra</p>
-      </a>
-    </div>
-    <div
-      class="pointer-events-auto flex items-end gap-3 text-xs font-semibold tracking-widest uppercase text-text-light">
-      <a class="hover:text-primary transition-colors" href="#">Sector Primario</a>
-      <div class="editorial-line w-12"></div>
-      <a class="hover:text-primary transition-colors" href="#">Gestión Forestal</a>
-    </div>
-  </nav>
+          <div class="h-14 w-14"><img src="assets/logo.png" alt="logo" class="h-full"></div>
+          <p class="text-2xl font-headerText text-text"><span class="text-3xl">S</span>ilvestra</p>
+        </a>
+      </div>
+      <div
+        class="pointer-events-auto flex items-end gap-3 text-xs font-semibold tracking-widest uppercase text-text-light">
+        <a class="hover:text-primary transition-colors" href="#">Sector Primario</a>
+        <div class="editorial-line w-12"></div>
+        <a class="hover:text-primary transition-colors" href="#">Gestión Forestal</a>
+      </div>
+    </nav>
   </header>
   <main class="relative z-10">
-    <section class="min-h-screen relative flex items-center px-6 md:px-24 pt-32 pb-24">
-      <div class="grid grid-cols-12 w-full max-w-7xl m-auto gap-4">
-        <div class="col-span-12 lg:col-span-7 relative z-20">
-          <h2 class="font-display text-7xl md:text-[8rem] text-white leading-none mb-12">
-            Gestión <br /> <span class="italic font-light text-primary">Forestal Sostenible</span>
+    <section class="min-h-screen relative flex items-center px-6 md:px-24 py-20">
+      <div class="grid grid-cols-12 w-full max-w-6xl m-auto gap-24">
+        <div class="col-span-12 lg:col-span-7 relative z-20 flex flex-col justify-center">
+          <h2 class="font-headerText text-5xl md:text-[7rem] text-white font-semibold leading-none mb-9">
+            Gestión <br /> <span class="italic font-semibold text-primary">Forestal Sostenible</span>
           </h2>
-          <div class="editorial-line mb-12 max-w-sm"></div>
-          <p class="text-xl md:text-2xl font-light leading-relaxed max-w-xl text-text-light">
-            No solo extraemos recursos; diseñamos ecosistemas que prosperan <br />
+          <div class="editorial-line mb-9 max-w-sm"></div>
+          <p class="text-xl md:text-2xl font-light leading-relaxed  text-text-light">
+            No solo extraemos recursos; diseñamos ecosistemas que prosperan
             para garantizar la resiliencia climática global.
           </p>
         </div>
@@ -56,11 +56,11 @@
             <img alt="Forest Canopy"
               class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-110"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWf26baPB6Pi8L2Eoi1x4Wi6A-apwhRCaEnIo3H3h8s-7YOrbjXD3xoij_zesgvAfByPmiQt74nqfKHrBf9rxNuiqDAxFmSqSkESFDhPPEr-QoIVJSlWNwlJESF5WcHqzXW4dnq1uQlTUyz2bcWAyPEWT722RDYJIKyPyluCzcTyFu7RksBO8r87FjAh5W_Hdoa_D1l1iS4ppEO4-dLk0HZuzAWn-C7cM5kp7W_U_1HrXU_gMbKSHRXyxG2nNVayctmYMq6V_EvyDb" />
-            <div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-primary/10 mix-blend-multiply pointer-events-none"></div>
           </div>
           <div class="floating-panel absolute -bottom-12 -left-12 p-10 max-w-xs hidden md:block">
-            <h3 class="font-display text-2xl text-white mb-4">Sector Primario</h3>
-            <p class="text-sm font-light text-text-light leading-relaxed">Liderando la transición hacia un futuro
+            <h3 class="font-headerText font-semibold text-2xl text-white mb-4">Sector Primario</h3>
+            <p class="font-light text-text-light leading-relaxed">Liderando la transición hacia un futuro
               regenerativo, donde la gestión inteligente es nuestra infraestructura vital.</p>
             <div class="editorial-line mt-6 w-1/3"></div>
           </div>
@@ -78,10 +78,11 @@
         </div>
         <div class="w-full md:w-1/2 order-1 md:order-2">
           <div class="max-w-md">
-            <h2 class="font-display text-5xl text-white mb-8">Arquitectura Viva</h2>
+            <h2 class="font-headerText text-5xl text-white mb-8">Arquitectura Viva</h2>
             <p class="text-text-light font-light text-lg mb-8 leading-relaxed">
-              No solo extraemos madera; diseñamos ecosistemas que prosperan. Nuestra metodología integra tecnología
-              avanzada para garantizar la resiliencia climática.
+              Entendemos la sostenibilidad como un proceso dinámico. Aplicamos el concepto de <strong
+                class="italic text-primary">Corta Selectiva</strong>, donde cada árbol retirado permite la entrada de
+              luz para las especies jóvenes, acelerando el secuestro de carbono.
             </p>
             <div class="flex items-center gap-6">
               <span class="text-primary font-bold text-4xl italic">01</span>
@@ -97,27 +98,31 @@
           <div class="absolute left-1/3 top-0 bottom-0 w-px bg-primary/20 hidden md:block"></div>
           <div class="absolute left-2/3 top-0 bottom-0 w-px bg-primary/20 hidden md:block"></div>
           <div class="p-12 border-b border-primary/20 md:border-b-0 group">
-            <span class="text-xs tracking-widest text-primary mb-12 block">TECNOLOGÍA</span>
-            <h4 class="font-display text-3xl text-white mb-6 group-hover:italic transition-all">LiDAR 3D</h4>
-            <p class="text-text-light font-light text-sm leading-relaxed mb-8">Mapeo de alta precisión para inventarios
-              dinámicos y una gestión forestal inteligente.</p>
+            <span class="tracking-widest text-primary mb-12 block">CO₂ Capturado/Año</span>
+            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">-450t CO2</h4>
+            <p class="text-text-light font-light text-sm leading-relaxed mb-8">Equivalente a las emisiones de 200
+              vehículos anuales.</p>
+            <div class="w-full h-48 overflow-hidden">
+              <img alt="Forest Management"
+                class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                src="https://a2g.pe/wp-content/uploads/2024/11/Diseno-sin-titulo-59.jpg" />
+            </div>
+          </div>
+          <div class="p-12 bg-bg-dark md:-translate-y-12 z-20 border border-primary/10 group">
+            <span class="tracking-widest text-primary mb-12 block uppercase">Biodiversidad Activa</span>
+            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">+15%</h4>
+            <p class="text-text-light font-light text-sm leading-relaxed mb-8">Aumento de especies protegidas en
+              nuestras parcelas.</p>
+            <div class="editorial-line mb-8"></div>
             <div class="w-full h-48 overflow-hidden">
               <img alt="Forest Management"
                 class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gE1R6adBW3JVipPZziwz7IPDyVT9_SNe-YkJxbJS2YZg21CyDv4zKvqNVPmWc8pNwNXcJYeQ1c7tOJOkOR830AWezKlFrydXGbvGLSvKzzEcDEytRQO4sCnXNwfpiiTjkCRSpZBpxw1GT7-_b4lpKPglW-XxhYkMCFOC04Fmvt-nscAyvK3VO8HekAUPAhKzFnsK6kkCyx5CKGzhF0PUjOa_ApX9kXUQ1eYREen_O8-wl-QFLZ6bWXSG117F-XKbPRl0yHAgykEL" />
             </div>
           </div>
-          <div class="p-12 bg-bg-dark md:-translate-y-12 z-20 border border-primary/10">
-            <span class="text-xs tracking-widest text-primary mb-12 block">SOSTENIBILIDAD</span>
-            <h4 class="font-display text-3xl text-white mb-6 italic">RIL & Regeneración</h4>
-            <p class="text-text-light font-light text-sm leading-relaxed mb-8">Tala de impacto reducido y reforestación
-              10:1 para proteger el boscaje nativo.</p>
-            <div class="editorial-line mb-8"></div>
-            <span class="material-symbols-outlined text-primary text-4xl">eco</span>
-          </div>
           <div class="p-12 border-t border-primary/20 md:border-t-0 group">
-            <span class="text-xs tracking-widest text-primary mb-12 block">MISIÓN</span>
-            <h4 class="font-display text-3xl text-white mb-6 group-hover:italic transition-all">Zero Waste</h4>
+            <span class="tracking-widest text-primary mb-12 block uppercase">Residuos en Proceso</span>
+            <h4 class="font-headerText font-bold text-4xl text-white mb-6 group-hover:italic transition-all">Zero Waste</h4>
             <p class="text-text-light font-light text-sm leading-relaxed mb-8">Transformamos el 100% de la biomasa en
               energía, cerrando el ciclo regenerativo.</p>
             <div class="w-full h-48 overflow-hidden">
@@ -129,55 +134,62 @@
         </div>
       </div>
     </section>
-    <section class="py-60 px-6 text-center relative overflow-hidden">
-      <div class="max-w-4xl mx-auto relative z-10">
-        <h3
-          class="text-huge font-black text-white/5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-          VES</h3>
-        <div class="editorial-line w-24 mx-auto mb-12"></div>
-        <h2 class="font-display text-5xl md:text-7xl text-white mb-12 leading-tight">
-          La naturaleza no es una mercancía, es nuestra <span class="italic text-primary">infraestructura vital</span>.
-        </h2>
-        <!-- <a class="inline-flex items-center gap-8 group" href="#"> -->
+    <section id="business-card-trigger" class="h-screen flex items-center justify-center px-6">
+      <div id="final-card" class="reveal-card flex flex-col items-center text-center max-w-2xl">
+        <div class="h-56 w-56 -mb-12">
+          <img src="assets/logo.png" alt="Silvestra Logo" class="h-full w-full object-contain">
+        </div>
+        <h2 class="font-headerText text-8xl text-white mb-4"><span class="text-9xl">S</span>ilvestra</h2>
+        <div class="editorial-line w-24 mb-6"></div>
+        <p class="text-primary tracking-[0.5em] text-md font-bold uppercase mb-3">Gestión Forestal Inteligente</p>
+        <p class="text-text-light font-light max-w-md italic text-lg">
+          "La naturaleza no es una mercancía, es nuestra infraestructura vital."
+        </p>
         <a href="https://nkaryoli.github.io/silvestra/" target="_blank"
-          class="bg-primary w-[480px] m-auto cursor-pointer h-14 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px]  hover:brightness-110 ">
-          Contactar con un experto
+          class="bg-primary w-[380px] cursor-pointer h-12 mt-6 px-8 flex items-center justify-center text-primary-foreground font-bold tracking-widest rounded-sm uppercase transition-all hover:shadow-lg hover:shadow-primary/20 hover:translate-y-[-2px] hover:brightness-110 ">
+          SABER MÁS
         </a>
       </div>
     </section>
   </main>
-  <footer class="bg-bg-dark py-14 px-8 border-t border-stone-900 relative z-20">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-12">
-      <div class="flex flex-col gap-8">
-        <div class="flex items-center gap-4">
-          <a class="logo h-full flex items-center gap-1 -ml-2" href="https://nkaryoli.github.io/silvestra/">
-            <div class="h-14 w-14"><img src="assets/logo3.png" alt="logo" class="h-full"></div>
-            <p class="text-2xl font-headerText"><span class="text-3xl">S</span>ilvestra</p>
-          </a>
+  <footer class="w-full pt-24 pb-6 h-screen z-20 absolute bottom-0 pointer-events-none">
+    <div class="max-w-7xl h-full mx-auto flex flex-col justify-between items-end gap-12">
+      <div class="flex flex-col items-end gap-6">
+        <div class="pointer-events-auto flex gap-8 text-xs font-bold tracking-widest uppercase text-text-light">
+          <a class="hover:text-primary transition-colors" href="#">Instagram</a>
+          <a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
+          <a class="hover:text-primary transition-colors" href="#">Facebook</a>
         </div>
+      </div>
+      <div class="w-full space-y-6">
         <address class="not-italic text-text-light font-light text-sm leading-relaxed">
           Carrer del Bosc, 47<br />
           43730 Falset, Tarragona <br />
           info@silvestra.es<br />
         </address>
-      </div>
-      <div class="flex flex-col items-end gap-6">
-        <div class="flex gap-8 text-xs font-bold tracking-widest uppercase text-text-light">
-          <a class="hover:text-primary transition-colors" href="#">Instagram</a>
-          <a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
-          <a class="hover:text-primary transition-colors" href="#">Facebook</a>
-        </div>
-        <p class="text-xs text-text-light/60 uppercase tracking-[0.3em]">© 2024 Silvestra – Gestión Forestal Sostenible
+        <p class="text-xs text-text-light/60 uppercase tracking-[0.2em]">© 2024 Silvestra – Gestión Forestal Sostenible
         </p>
       </div>
     </div>
   </footer>
-  <button
-    class="fixed bottom-12 left-8 w-10 h-10 border border-stone-800 rounded-full flex items-center justify-center z-50 hover:bg-white hover:text-black transition-all"
-    onclick="document.documentElement.classList.toggle('dark')">
-    <span class="material-symbols-outlined text-sm">contrast</span>
-  </button>
+  <script>
+    const observerOptions = {
+      threshold: 0.5
+    };
 
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          document.getElementById('final-card').classList.add('is-visible');
+        }
+      });
+    }, observerOptions);
+
+    const target = document.getElementById('business-card-trigger');
+    if (target) {
+      observer.observe(target);
+    }
+  </script>
 </body>
 
 </html>
